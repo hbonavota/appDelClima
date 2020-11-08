@@ -1,6 +1,3 @@
-# Título del Proyecto
-
-_APP DEL CLIMA!_
-
+# APP DEL CLIMA!
 
 
