@@ -6,24 +6,32 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
-<h1>App del Clima!</h1>
-<div>
-	<button id= "buenos_aires">Buenos Aires</button>
-	<button id= "barcelona">Barcelona</button>
-	<button id= "chicago">Chicago</button>
+<div class="container">
+    <div class="row">
+        <h1>App del Clima!</h1>
+    </div>
 
-	<div>
-	<input type= "text" placeholder="escribe una ciudad"> 
-	<button id="boton">Buscar</button>
-	</div>
+    <div class="row">
+        <button id="buenos_aires" class="btn-primary">Buenos Aires</button>
+        <button id="barcelona" class="btn-primary">Barcelona</button>
+        <button id="chicago" class="btn-primary">Chicago</button>
+    </div>
+    <div class="row">
+        <form>
+            <div class="form-group">
+                <input type="text" placeholder="escribe una ciudad"> 
+                <button id="boton" class="btn-primary">Buscar</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="row">
+        <h2>Ciudad: <span id="ciudad"></span></h2>
+        <h3>Temperatura: <span id="temperatura"></span></h3>
+        <h4>Estado del cielo: <span id="estado_del_cielo"></span></h4>
+    </div>
+
 </div>
-<h2>Ciudad: <span id="ciudad" ></span>  </h2>
-<h3>Temperatura:  <span id="temperatura"></span></h3>
-<h4>Estado del cielo: <span id="estado_del_cielo"></span></h4>
-<h4>Estado del cielo: <span id="estado_del_cielo"></span></h4>
-<h4>Estado del cielo: <span id="estado_del_cielo"></span></h4>
-
-
 
 <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"

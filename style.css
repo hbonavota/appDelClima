@@ -1,3 +1,7 @@
 *body{
     background-color: blueviolet
 }
+
+.row {
+    margin: 7px;
+}
