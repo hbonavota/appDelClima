@@ -2,15 +2,17 @@
 
 Esta es solo una simple página para consultar el clima. Es parte de los proyectos que tenia guardados y ahora dedico algo de tiempo en los ratos libres 😍💪😀
 
-### Herramientas 🔧
-
 ## Construido con 🛠️
+
+### Herramientas 🔧
 
 Utilizo una Api que devuelve un Json. Utilizo Html, css, Javascript, Bootstrap.
 
 ## Contribuyendo 🖇️
 
-Agregue a un amigo al proyecto con el fin de realizar varias ramas y y ordenar el gitFlow
+Agregue a un amigo al proyecto con el fin de realizar varias ramas y y ordenar el gitFlow. Sin dudas colaborando y nutriendose de colegas es cuádo más se aprende. Gracias Marian!
+
+* mgiagante
 
 ## Autores ✒️
 * Hbonavota.
