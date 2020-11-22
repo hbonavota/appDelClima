@@ -16,7 +16,8 @@ Agregue a un amigo al proyecto con el fin de realizar varias ramas y y ordenar e
 
 ## Autores ✒️
 * Hbonavota.
-Fué un TP que realice hace año y medio en PLATAFORMA5, cuando me iniciaba en la Programación y el Diseño Web. 
+
+Fué un TP que realice hace un año y medio en PLATAFORMA5 (Buenos Aires, Argentina), cuando me iniciaba en la Programación y el Diseño Web. 
 
 ## Expresiones de Gratitud 🎁
 
