@@ -8,7 +8,12 @@
 <body>
 <div class="container">
     <div class="row">
-        <h1>App del Clima!</h1>
+        <nav class="navbar navbar-dark bg-primary">
+            <h1>App del Clima!</h1>
+        </nav>
+        
+        <blockquote> Escribe una ciudad y recibiras información sobre el clima. 
+            Recuerda que para obtener precisión, te requerimos una ciudad, no un país :).</blockquote>
     </div>
 
     <div class="row">
@@ -19,16 +24,21 @@
     <div class="row">
         <form>
             <div class="form-group">
-                <input type="text" placeholder="escribe una ciudad"> 
+                <input type="text" placeholder="Nombre de la ciudad"> 
                 <button id="boton" class="btn-primary">Buscar</button>
             </div>
         </form>
     </div>
 
     <div class="row">
-        <h2>Ciudad: <span id="ciudad"></span></h2>
-        <h3>Temperatura: <span id="temperatura"></span></h3>
-        <h4>Estado del cielo: <span id="estado_del_cielo"></span></h4>
+        <div class="card-header"><h2>Ciudad: <span id="ciudad"></span></h2></div>
+        <div class="card-body">
+            <h5 class="card-title">Temperatura: <span id="temperatura"></span></h5>
+            <h4>Temperatura Mínima: <span id="temperaturaMin"></span></h4>
+            <h4>Temperatura Máxima: <span id="temperaturaMax"></span></h4>
+            <h4>Humedad: <span id="humidity"></span></h4>
+            <h4>Estado del cielo: <span id="estado_del_cielo"></span></h4>
+        </div>
     </div>
 
 </div>
