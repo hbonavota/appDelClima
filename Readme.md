@@ -1,6 +1,6 @@
 # APP DEL CLIMA!
 
-Esta es solo una simple página para consultar el clima. Es parte de los proyectos que tenia guardados y en la cual ahora dedico algo de tiempo en los ratos libres 😍💪😀
+Esta es solo una simple página para consultar el clima. Es parte de los proyectos que tenia guardados y ahora dedico algo de tiempo en los ratos libres 😍💪😀
 
 ### Herramientas 🔧
 
