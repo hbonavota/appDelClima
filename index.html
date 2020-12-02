@@ -15,12 +15,6 @@
         <blockquote> Escribe una ciudad y recibiras información sobre el clima. 
             Recuerda que para obtener precisión, te requerimos una ciudad, no un país :).</blockquote>
     </div>
-
-    <div class="row">
-        <button id="buenos_aires" class="btn-primary">Buenos Aires</button>
-        <button id="barcelona" class="btn-primary">Barcelona</button>
-        <button id="chicago" class="btn-primary">Chicago</button>
-    </div>
     <div class="row">
         <form>
             <div class="form-group">
@@ -31,11 +25,17 @@
     </div>
 
     <div class="row">
+        <button id="buenos_aires" class="btn-primary">Buenos Aires</button>
+        <button id="barcelona" class="btn-primary">Barcelona</button>
+        <button id="chicago" class="btn-primary">Chicago</button>
+    </div>
+
+    <div class="row">
         <div class="card-header"><h2>Ciudad: <span id="ciudad"></span></h2></div>
         <div class="card-body">
             <h3 class="card-title">Temperatura: <span id="temperatura"></span></h3>
-            <h4>Temperatura Mínima: <span id="temperaturaMin"></span></h4>
-            <h4>Temperatura Máxima: <span id="temperaturaMax"></span></h4>
+            <h4>Temp. Mín.: <span id="temperaturaMin"></span></h4>
+            <h4>Temp. Máx.: <span id="temperaturaMax"></span></h4>
             <h4> Humedad %: <span id="humidity"></span></h4>
             <h4>Estado del cielo: <span id="estado_del_cielo"></span></h4>
         </div>

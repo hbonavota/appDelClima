@@ -7,12 +7,20 @@ body {
 
 .row {
     margin: 7px;
-
+    align-items: center;
+    justify-content: center;
 }
 .container{
+    align-items: center;
     border: 1px solid black;
     width: 50%;
     height: 80%;
     text-align: center;
     background-color: aqua;
+    justify-content: center;
 }
+
+.btn-primary{
+    border-radius: 10px;
+}
+.

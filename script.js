@@ -7,6 +7,7 @@
 //   }
 // })
 
+// 
 
 $.ajax({
   method: 'GET',
@@ -78,9 +79,9 @@ $.ajax({
 })
 
 
-$("#boton").click( 
-  function(){
-  var ciudad = $("input").val()
+$("#boton").click( function(){
+  var ciudad = $("input").val();
+  console.log(ciudad);
   $.ajax({
     method: 'GET',
     url: 'http://api.openweathermap.org/data/2.5/weather?q=' +ciudad + '&appid=95176c8edea30e33338e0eaddd53a916&units=metric&lang=es',

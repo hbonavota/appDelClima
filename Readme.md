@@ -1,6 +1,7 @@
 # APP DEL CLIMA!
 
 Esta es solo una simple página para consultar el clima. Es parte de los proyectos que tenia guardados y ahora dedico algo de tiempo en los ratos libres 😍💪😀
+La idea es mejorar este codigo aplicando los principios SOLID y utilizar nuevas tecnologias como React, css Modules, WebPack
 
 ## Construido con 🛠️
 
