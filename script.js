@@ -7,7 +7,7 @@
 //   }
 // })
 
-// 
+// PRÓXIMAMENTE ESTARÉ APLICANDO PRINCIPIOS DE SOLID Y REFACTORING A ESTE CODIGO, NO SOLO PARA MEJORAR LA ESCABILIDAD, SINO TAMBIEN INTEGRANDO NUEVAS TECNOLIGIAS COMO FETCH REACT, WEBPACK, 
 
 $.ajax({
   method: 'GET',
@@ -81,7 +81,6 @@ $.ajax({
 
 $("#boton").click( function(){
   var ciudad = $("input").val();
-  console.log(ciudad);
   $.ajax({
     method: 'GET',
     url: 'http://api.openweathermap.org/data/2.5/weather?q=' +ciudad + '&appid=95176c8edea30e33338e0eaddd53a916&units=metric&lang=es',
